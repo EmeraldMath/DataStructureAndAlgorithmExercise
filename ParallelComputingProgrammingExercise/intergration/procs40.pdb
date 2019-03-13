@@ -1,0 +1,12 @@
+#!/bin/bash
+#PBS -l nodes=1:ppn=20,walltime=00:02:00
+#PBS -q short-24core
+#PBS -N hello
+#PBS -j oe
+
+module load shared
+module load intel-stack
+cd /gpfs/projects/AMS530/hw1
+
+mpirun ./dis 5000000 > node40.txt
+ 

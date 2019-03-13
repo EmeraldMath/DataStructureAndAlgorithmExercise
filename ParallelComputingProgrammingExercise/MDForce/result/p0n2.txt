@@ -1,0 +1,2 @@
+Process: 0, Elapsed time is 0.000602s
+N: 4000

@@ -1,0 +1,11 @@
+#!/bin/bash
+#PBS -l nodes=1:ppn=1,walltime=48:00:00
+#PBS -q long
+#PBS -N N2p0
+#PBS -j oe
+
+module load shared
+module load intel-stack
+cd /gpfs/home/bihyu/hw3/
+mpirun ./a.out 4000 > p0n2.txt
+ 

@@ -1,0 +1,9 @@
+Process: 0, Elapsed time is 0.000388s
+Process: 1, Elapsed time is 0.000408s
+Process: 2, Elapsed time is 0.000369s
+Process: 3, Elapsed time is 0.000395s
+Process: 5, Elapsed time is 0.000393s
+Process: 6, Elapsed time is 0.000395s
+Process: 7, Elapsed time is 0.000400s
+Process: 4, Elapsed time is 0.000414s
+N: 2000
